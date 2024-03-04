@@ -1,0 +1,20 @@
+{
+  "name": "parser-localstorage",
+  "version": "0.0.5",
+  "description": "Automatic data conversion Local storage.",
+  "main": "dist/parser-localStorage.js",
+  "types": "dist/parser-localStorage.d.ts",
+  "keywords": [
+    "localStorage"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && mkdir dist && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
