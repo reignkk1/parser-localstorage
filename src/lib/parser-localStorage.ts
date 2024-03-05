@@ -1,3 +1,5 @@
+"use strict";
+
 class LocalStorage {
   set(key: string, value: string | number | object) {
     invariant("The key on the local storage must be a string.", key);

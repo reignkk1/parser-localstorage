@@ -1,6 +1,6 @@
 {
   "name": "parser-localstorage",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Automatic data conversion Local storage.",
   "main": "dist/parser-localStorage.js",
   "types": "dist/parser-localStorage.d.ts",
