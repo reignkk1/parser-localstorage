@@ -1,4 +1,4 @@
-# [parser-localStoarage](https://www.npmjs.com/package/parser-localstorage) &middot; [![npm version](https://img.shields.io/badge/npm-v0.0.6-blue)](https://www.npmjs.com/package/parser-localstorage)
+# [parser-localStoarage](https://www.npmjs.com/package/parser-localstorage) &middot; [![npm version](https://img.shields.io/badge/npm-v0.0.9-blue)](https://www.npmjs.com/package/parser-localstorage)
 
 parser-localStorage is a library that automatically parses and stores data when it is stored on storage.
 

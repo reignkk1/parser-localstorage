@@ -1,7 +1,7 @@
 "use strict";
 
 class LocalStorage {
-  set(key: string, value: string | number | object) {
+  set(key: string, value: boolean | string | number | object) {
     invariant("The key on the local storage must be a string.", key);
     const item = { value, type: typeof value };
     if (typeof window !== "undefined") {
@@ -12,9 +12,10 @@ class LocalStorage {
   get(key: string) {
     invariant("The key on the local storage must be a string.", key);
     if (typeof window !== "undefined") {
-      const item = JSON.parse(localStorage.getItem(key)!);
-      const itemType = item.type;
-      const itemValue = item.value;
+      const item = JSON.parse(localStorage.getItem(key) || "null");
+      if (!item) return null;
+      const itemType = item?.type;
+      const itemValue = item?.value;
 
       if (itemType === "number") {
         return Number(itemValue);
