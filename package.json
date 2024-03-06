@@ -1,12 +1,12 @@
 {
   "name": "parser-localstorage",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Automatic data conversion Local storage.",
   "main": "dist/parser-localStorage.js",
   "types": "dist/parser-localStorage.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reignkk1/react-url-paginate"
+    "url": "https://github.com/reignkk1/parser-localstorage"
   },
   "keywords": [
     "localStorage"
