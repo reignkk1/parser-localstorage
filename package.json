@@ -1,15 +1,17 @@
 {
-  "name": "parser-localstorage",
-  "version": "0.1.0",
-  "description": "Automatic data conversion Local storage.",
-  "main": "dist/parser-localStorage.js",
-  "types": "dist/parser-localStorage.d.ts",
+  "name": "parser-storages",
+  "version": "0.0.3",
+  "description": "Automatic data conversion storage.",
+  "main": "dist/parser-storages.js",
+  "types": "dist/parser-storages.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reignkk1/parser-localstorage"
+    "url": "https://github.com/reignkk1/parser-storages"
   },
   "keywords": [
-    "localStorage"
+    "localStorage",
+    "sessionStorage",
+    "storage"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
