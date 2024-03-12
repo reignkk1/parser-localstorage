@@ -18,7 +18,7 @@
     "build": "rm -rf dist && mkdir dist && tsc"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@types/jest": "^29.5.12",
