@@ -1,8 +1,12 @@
 # [parser-storages](https://www.npmjs.com/package/parser-storages) &middot; [![npm version](https://img.shields.io/badge/npm-v0.0.3-blue)](https://www.npmjs.com/package/parser-storages)
 
-parser-storages is a library that automatically parses and stores data when it is stored on storage.
+When you do a front-end development, you use localStorage, a browser repository, to store the client's data values.
 
-It parses data in JSON form and makes it easy to import data.
+One of the characteristics of localStorage is that it always needs to be stored in character form, and that it always returns in character form whenever it is imported.
+
+Because of this, in the case of the Object type, the JSON.stringify method is used to convert the type and then save the value. In addition, if you save the value in the form of number and boolean, it returns to the form of the character type every time you import the value, causing inconvenience of having to check the type again, which eventually leads to the developer's mistake and increases the probability of error.
+
+To solve these problems, we developed a library called parser-stories.
 
 ## install
 
