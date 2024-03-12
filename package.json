@@ -1,6 +1,6 @@
 {
   "name": "parser-storages",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Automatic data conversion storage.",
   "main": "dist/parser-storages.js",
   "types": "dist/parser-storages.d.ts",
