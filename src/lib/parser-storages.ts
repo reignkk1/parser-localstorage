@@ -52,7 +52,7 @@ if (typeof window !== "undefined") {
   sessionStorage = window.sessionStorage;
 }
 
-const parserLocalStorage = new Storage(localStorage || null);
-const parserSessionStorage = new Storage(sessionStorage || null);
+let parserLocalStorage = new Storage(localStorage || null);
+let parserSessionStorage = new Storage(sessionStorage || null);
 
-export { parserLocalStorage, parserSessionStorage };
+export { parserLocalStorage, parserSessionStorage, Storage };
